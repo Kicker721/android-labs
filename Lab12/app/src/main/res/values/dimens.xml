@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="constraint_padding">10dp</dimen>
+    <dimen name="img_width">40dp</dimen>
+    <dimen name="img_height">40dp</dimen>
+    <dimen name="text_padding">8dp</dimen>
+</resources>

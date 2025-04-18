@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab12</string>
+    <string name="price">%.2f ₽</string>
+</resources>
