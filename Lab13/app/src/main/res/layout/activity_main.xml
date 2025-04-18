@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <Button
+            android:id="@+id/btnSelectCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_select_city" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Город: Задонск" />
+
+        <TextView
+            android:id="@+id/tvFederalDistrict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Федеральный округ: Центральный" />
+
+        <TextView
+            android:id="@+id/tvRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Регион: Липецкая область" />
+
+        <TextView
+            android:id="@+id/tvPostalCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Почтовый индекс: 399200" />
+
+        <TextView
+            android:id="@+id/tvTimeZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Часовой пояс: UTC+3" />
+
+        <TextView
+            android:id="@+id/tvPopulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Население: 9695" />
+
+        <TextView
+            android:id="@+id/tvFounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Основан в: 1615 году" />
+
+
+        <Button
+            android:id="@+id/btnShowOnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_show_on_map" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
