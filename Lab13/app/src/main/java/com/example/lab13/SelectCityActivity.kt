@@ -14,6 +14,11 @@ class SelectCityActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_select_city)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.rvCities)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
 
         rvCities = findViewById(R.id.rvCities)
         val adapter = CitiesAdapter(Common.cities)

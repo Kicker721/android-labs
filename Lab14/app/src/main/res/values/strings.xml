@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab 14</string>
+
+    <string name="btn_show_on_map">Показать на карте</string>
+    <string name="city">Город: %1$s</string>
+    <string name="federal_district">Федеральный округ: %1$s</string>
+    <string name="region">Регион: %1$s</string>
+    <string name="postal_code">Почтовый индекс: %1$s</string>
+    <string name="time_zone">Часовой пояс: %1$s</string>
+    <string name="population">Население: %1$s</string>
+    <string name="founded">Основан в %1$s году</string>
+    <string name="no_maps_app">Нет приложения для отображения карты</string>
+</resources>

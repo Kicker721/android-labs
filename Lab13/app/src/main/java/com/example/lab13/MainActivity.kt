@@ -82,8 +82,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnShowOnMap.setOnClickListener {
-            if(cityIndex>0){
-                val intent = Uri.parse("geo:"+cities[cityIndex].lat + cities[cityIndex].lon).let { location ->
+            if(cityIndex>=0){
+                val intent = Uri.parse("geo:${cities[cityIndex].lat},${cities[cityIndex].lon}").let { location ->
                     Intent(Intent.ACTION_VIEW, location)
                 }
                 try {
