@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab 17</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_page">Раздел Новости</string>
+    <string name="clear_news">Очистить новости</string>
+    <string name="genre">Жанр</string>
+    <string name="music">Музыка</string>
+    <string name="books">Книги</string>
+    <string name="news">Новости</string>
+    <string name="genre_is">Жанр: %1$s</string>
+</resources>

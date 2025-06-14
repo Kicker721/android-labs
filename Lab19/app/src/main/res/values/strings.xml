@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab 19</string>
+    <string name="one_more_chance">Без разрешения функционал приложения ограничен. У вас есть ещё один шанс...</string>
+    <string name="ok">ОК</string>
+    <string name="rationale">Пожалуйста, предоставьте разрешение? Оно очень-очень нужно для работы!</string>
+    <string name="no_god_please_no">Нет, не хочу</string>
+    <string name="ladno">Ладно</string>
+    <string name="permission_denied">Для отображения списка контактов приложению требуется разрешение на доступ к контактам. Без этого разрешения работа, увы, невозможна.\n\nЕсли Вы хотите дать программе ещё один шанс, то откройте системные настройки и выдайте разрешение программе на доступ к контактам.</string>
+    <string name="open_settings">Открыть системные настройки</string>
+    <string name="no_i_dont_need">Нет, спасибо, не нужно</string>
+    <string name="get_contacts">Получить контакты</string>
+    <string name="success">Успех! Получены контакты:\n\n</string>
+    <string name="not_found">Контакты не найдены.</string>
+</resources>

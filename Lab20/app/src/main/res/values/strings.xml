@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab 20</string>
+    <string name="chosen_color">Выбран цвет: #%1$s</string>
+    <string name="no_permission">Нет разрешения на уведомления</string>
+    <string name="reset_color">СБРОСИТЬ ЦВЕТ</string>
+    <string name="here_you_can">Отсюда можно управлять цветом фона программы</string>
+    <string name="manager">Управляющий</string>
+    <string name="set_color">ЗАДАТЬ ЦВЕТ</string>
+    <string name="color_format">Цвет в формате RRGGBB</string>
+</resources>

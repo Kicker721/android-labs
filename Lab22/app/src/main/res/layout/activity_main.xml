@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Игра «Найди точку!»"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Точка загадана, ищите!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текущее расстояние до точки: --- м"
+        android:textSize="16sp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnNewPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загадать новую точку!"
+        android:backgroundTint="#7B1FA2"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть настройки программы"
+        android:backgroundTint="#7B1FA2"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
