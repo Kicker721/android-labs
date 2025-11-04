@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title"
+        android:textSize="@dimen/edittext_text_size"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom"/>
+
+    <EditText
+        android:id="@+id/editAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_author"
+        android:textSize="@dimen/edittext_text_size"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom"/>
+
+    <CheckBox
+        android:id="@+id/checkboxRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_read"/>
+</LinearLayout>

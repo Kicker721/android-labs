@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab25</string>
+
+    <!-- Activity and UI -->
+    <string name="header_new">Новые</string>
+    <string name="header_read">Прочитанные</string>
+    <string name="add_book">Добавить книгу</string>
+    <string name="edit_book">Редактировать книгу</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_book_confirm_title">Удаление книги</string>
+    <string name="delete_book_confirm_message">Вы уверены, что хотите удалить эту книгу?</string>
+    <string name="enter_title_author">Введите название и автора</string>
+
+    <!-- Dialog hints/labels -->
+    <string name="hint_title">Название книги</string>
+    <string name="hint_author">Автор</string>
+    <string name="label_read">Прочитана</string>
+
+    <!-- Item defaults -->
+    <string name="default_book_title">Название книги</string>
+    <string name="default_book_author">Автор книги</string>
+</resources>

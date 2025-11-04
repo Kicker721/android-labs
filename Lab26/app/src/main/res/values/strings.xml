@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_color">#FFFFFF</string>
+    <string name="toast_error">Ошибка: %1$s</string>
+    <string name="toast_saved">Фото сохранено: %1$s</string>
+</resources>
+
